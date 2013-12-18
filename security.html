@@ -29,14 +29,14 @@
       <li>
         <p>Mandatory encryption of client connections.</p>
         <p>What this accomplishes: This ensures that your password, buddy list, and messages are kept confidential between your device and the jabber.org IM service. As a result, if you chat with another person with a jabber.org address then your messages will never be "in the clear" over the wire.</p>
-        <p>What this does not accomplish: This does <strong>not</strong> protect your messages if you communicate with someone at another server (say, jabber.ccc.de). To make that happen, we need to enable mandatory encryption of server-to-server connections (see below). Also, this does <strong>not</strong> ensure that your messages are encrypted inside the jabber.IM service. To make that happen, you need to use IM software that supports end-to-end encryption (see <a href='#you'>What You Can Do</a> at the bottom of this page).</p>
+        <p>What this does not accomplish: This does <strong>not</strong> protect your messages if you communicate with someone at another server (e.g., jabber.at). To make that happen, we need to enable mandatory encryption of server-to-server connections (see below). Also, this does <strong>not</strong> ensure that your messages are encrypted inside the jabber.org IM service. To make that happen, you need to use IM software that supports end-to-end encryption (see <a href='#you'>What You Can Do</a> at the bottom of this page).</p>
         <p>When we will take this action: We plan to test this improvement on December 20-21, 2013. If there are no significant problems, we will enable it full-time in the near future (date to be determined).</p>
-        <p>Potential impact on you: If you are running IM software that does not support the XMPP STARTTLS technology first standardized in 2004, you will not be able to connect to the jabber.org IM service. When we testes this setting several years ago, some old IM software was unable to connect, but we now expect few users to experience problems. However, if you are unable to connect, please send an email message to <a href='mailto:juser@jabber.org'>juser@jabber.org</a> and tell us what IM software you are using (including the version and operating system).</p>
+        <p>Potential impact on you: If you are running IM software that does not support the XMPP STARTTLS technology first standardized in 2004, you will not be able to connect to the jabber.org IM service. When we tested this setting several years ago, some old IM software was unable to connect, but we now expect few users to experience problems. However, if you are unable to connect, please send an email message to <a href='mailto:juser@jabber.org'>juser@jabber.org</a> and tell us what IM software you are using (including the version and operating system).</p>
       </li>
       <li>
         <p>Mandatory encryption of server-to-server connections.</p>
-        <p>What this accomplishes: This ensures that your messages to people with XMPP addresses at other servers (say, jabber.at) are kept confidential between jabber.org and the remote server.</li>
-        <p>What this does not accomplish: This does <strong>not</strong> protect your messages between the remote server (say, jabber.at) and your friend's IM software, nor does ensure that your messages are encrypted inside the jabber.IM service or inside the remote server. To make that happen, you need to use IM software that supports end-to-end encryption (see <a href='#you'>What You Can Do</a> at the bottom of this page).</p>
+        <p>What this accomplishes: This ensures that your messages to people with XMPP addresses at other servers (e.g., jabber.at) are kept confidential between jabber.org and the remote server.</li>
+        <p>What this does not accomplish: This does <strong>not</strong> protect your messages between the remote server (e.g., jabber.at) and your friend's IM software, nor does ensure that your messages are encrypted inside the jabber.IM service or inside the remote server. To make that happen, you need to use IM software that supports end-to-end encryption (see <a href='#you'>What You Can Do</a> at the bottom of this page).</p>
         <p>When we will take this action: Along with many other servers on the public XMPP network, we will test this improvement on January 4, 2014. Additional test dates are planned throughout the spring of 2014 (see below).</p>
         <p>Potential impact on you: If you try to communicate with a remote server that does nto support encryption, you will not see your friends online and you will not be able to exchange messages. <strong>Note that Google-hosted domains will not be part of the initial test days! However, it is our understanding that Google-hosted domains will be reachable over encrypted connections later in the testing process.</strong> If you experience communication problems during the test days listed below under the <a href='#timeline'>Timeline</a>, please send an email message to <a href='mailto:juser@jabber.org'>juser@jabber.org</a> and tell us what IM services you are attempting to contact.</p>
       </li>
@@ -64,7 +64,7 @@
   <div id='foot'>
   <hr/>
   <h3>Change Log</h3>
-  <p><em>Version 0.1 (2013-12-18). First draft.</em></p>
+  <p><em>Version 1.0 (2013-12-18). Initial version, covering encryption of client connections and server-to-server connections.</em></p>
   <hr/>
   <p><a href='/'>jabber.org</p>
   </div>

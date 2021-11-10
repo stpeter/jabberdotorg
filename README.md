@@ -1,4 +1,7 @@
 jabberdotorg
 ============
 
-Files for the jabber.org website
+Note that we don't use this repository any longer. Please go to:
+
+https://github.com/jabber2/jabberdotorg
+
